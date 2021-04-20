@@ -1,0 +1,463 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>testing | @alanscodelog/utils</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<ul class="results-priority" style="display:none">
+					</ul>
+					<a href="../index.html" class="title">@alanscodelog/utils</a>
+					&emsp;<a href="https://github.com/alanscodelog/my-utils" class="title">Repository</a>
+					&emsp;<a href="https://github.com/alanscodelog/my-utils/issues" class="title">Issues</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="testing.html">testing</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-3 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Modules</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="colors.html">colors</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="retypes.html">retypes</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="testing.html">testing</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="types.html">types</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="utils.html">utils</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-7 offset-3 col-content">
+			<h1>Module testing</h1>
+			<section class="tsd-panel-group tsd-index-group">
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Functions</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="testing.html#catcherror" class="tsd-kind-icon">catch<wbr>Error</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter"><a href="testing.html#expecttype" class="tsd-kind-icon">expect<wbr>Type</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="testing.html#inspecterror" class="tsd-kind-icon">inspect<wbr>Error</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="testing.html#partialdeepequal" class="tsd-kind-icon">partial<wbr>Deep<wbr>Equal</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="testing.html#testname" class="tsd-kind-icon">test<wbr>Name</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="catcherror" class="tsd-anchor"></a>
+					<h3>catch<wbr>Error</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">catch<wbr>Error<span class="tsd-signature-symbol">(</span>func<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in
+										<a href="undefined/tree/master/testing/catchError.ts#L14">
+											testing/catchError.ts:14
+										</a>
+									</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Similar to <a href="testing.html#inspecterror">inspectError</a>, but returns the error instead and throws if the function does not throw.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-text">
+								<p>This makes it easy to check parts of an error are correct.</p>
+								<pre><code class="language-ts"><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">error</span><span style="color: #000000"> = </span><span style="color: #795E26">catchError</span><span style="color: #000000">(</span><span style="color: #001080">funcThatThrows</span><span style="color: #000000">)</span>
+
+<span style="color: #795E26">expect</span><span style="color: #000000">(</span><span style="color: #001080">error</span><span style="color: #000000">.</span><span style="color: #001080">message</span><span style="color: #000000">).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #795E26">include</span><span style="color: #000000">(...)</span>
+<span style="color: #008000">// using the chai partialDeepEqual plugin:</span>
+<span style="color: #795E26">expect</span><span style="color: #000000">(</span><span style="color: #001080">error</span><span style="color: #000000">).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #001080">partial</span><span style="color: #000000">.</span><span style="color: #001080">deep</span><span style="color: #000000">.</span><span style="color: #795E26">equal</span><span style="color: #000000">({</span><span style="color: #001080">code:</span><span style="color: #000000"> </span><span style="color: #098658">1</span><span style="color: #000000">, </span><span style="color: #001080">type:</span><span style="color: #A31515">&quot;SOME_TYPE&quot;</span><span style="color: #000000">})</span>
+</code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>func: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+					<a name="expecttype" class="tsd-anchor"></a>
+					<h3>expect<wbr>Type</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">expect<wbr>Type&lt;T, TOp, TOther&gt;<span class="tsd-signature-symbol">(</span>_expected<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TOp extends OpAssignableTo ? IsAssignable&lt;T, TOther&gt; : TOp extends OpEqual ? IsEqual&lt;T, TOther&gt; : never</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in
+										<a href="undefined/tree/master/testing/expectType.ts#L34">
+											testing/expectType.ts:34
+										</a>
+									</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Does not actually assert anything. Errors need to be caught by linting not testing, see more below.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-text">
+								<p>Supported operators:
+									<code>equal</code> or <code>===</code>
+								<code>assignableTo</code> or <code>==&gt;</code></p>
+								<pre><code class="language-ts"><span style="color: #795E26">expectType</span><span style="color: #000000">&lt;</span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;equal&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">&gt;(</span><span style="color: #0000FF">true</span><span style="color: #000000">) </span><span style="color: #008000">// or:</span>
+<span style="color: #795E26">expectType</span><span style="color: #000000">&lt;</span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;===&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">&gt;(</span><span style="color: #0000FF">true</span><span style="color: #000000">)</span>
+
+<span style="color: #795E26">expectType</span><span style="color: #000000">&lt;</span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;equal&quot;</span><span style="color: #000000">, </span><span style="color: #267F99">string</span><span style="color: #000000">&gt;(</span><span style="color: #0000FF">false</span><span style="color: #000000">)</span>
+
+<span style="color: #795E26">expectType</span><span style="color: #000000">&lt;</span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;assignableTo&quot;</span><span style="color: #000000">, </span><span style="color: #267F99">string</span><span style="color: #000000">&gt;(</span><span style="color: #0000FF">true</span><span style="color: #000000">) </span><span style="color: #008000">// or:</span>
+<span style="color: #795E26">expectType</span><span style="color: #000000">&lt;</span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;==&gt;&quot;</span><span style="color: #000000">, </span><span style="color: #267F99">string</span><span style="color: #000000">&gt;(</span><span style="color: #0000FF">true</span><span style="color: #000000">)</span>
+
+<span style="color: #795E26">expectType</span><span style="color: #000000">&lt;</span><span style="color: #267F99">string</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;assignableTo&quot;</span><span style="color: #000000">, </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">&gt;(</span><span style="color: #0000FF">false</span><span style="color: #000000">)</span>
+</code></pre>
+								<a href="#how-to-test" id="how-to-test" style="color: inherit; text-decoration: none;">
+									<h2>How to Test</h2>
+								</a>
+								<p>If using <code>ts-jest</code>* it will already report type errors (if <code>diagnostics</code> is true which it is by default), but if using <code>babel-jest</code>:</p>
+								<p>Letting jest test any tests that only use this function (like all the ones in the <code>types</code> folder) is like running tests that have no assertions.</p>
+								<p>The type assertions need to be &quot;tested&quot; by linting them with typescript (<code>npx tsc --noEmit --pretty</code> with the tsconfig including the tests directory).</p>
+								<p>This does not mean this can&#39;t be used in other test files, it can, just note it&#39;s not asserting anything, only &quot;linting&quot; (or your editor) will reveal any errors. Similarly, in the case of tests that only test types they should still be tested (i.e. named .spec) in case an assertion is accidentally added</p>
+								<p>*I prefer avoiding <code>ts-jest</code>. It does not work well with path aliases and usually I transpile with babel instead of typescript, and I want to test the code as it would be transpiled.</p>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T</h4>
+								</li>
+								<li>
+									<h4>TOp<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">OpAssignableTo</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">OpEqual</span></h4>
+								</li>
+								<li>
+									<h4>TOther</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>_expected: <span class="tsd-signature-type">TOp extends OpAssignableTo ? IsAssignable&lt;T, TOther&gt; : TOp extends OpEqual ? IsEqual&lt;T, TOther&gt; : never</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="inspecterror" class="tsd-anchor"></a>
+					<h3>inspect<wbr>Error</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">inspect<wbr>Error<span class="tsd-signature-symbol">(</span>func<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span>, inspect<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in
+										<a href="undefined/tree/master/testing/inspectError.ts#L12">
+											testing/inspectError.ts:12
+										</a>
+									</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Wrapper to log the errors thrown by functions in tests because test libraries (e.g. jest, test) won&#39;t log thrown error messages. Allows inspecting the error message manually if/as needed.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-text">
+								<p>The actual logging can be turned on/off with the last parameter or you can force them all on by setting the INSPECT_ERRORS environment variable.</p>
+								<pre><code class="language-ts"><span style="color: #795E26">expect</span><span style="color: #000000">(</span><span style="color: #795E26">inspectError</span><span style="color: #000000">(() </span><span style="color: #0000FF">=&gt;</span><span style="color: #000000"> {</span>
+<span style="color: #000000">    </span><span style="color: #AF00DB">throw</span><span style="color: #000000"> </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #267F99">Error</span><span style="color: #000000">(</span><span style="color: #A31515">&quot;&quot;</span><span style="color: #000000">)</span>
+<span style="color: #000000">}, </span><span style="color: #0000FF">true</span><span style="color: #000000">)).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #795E26">throw</span><span style="color: #000000">()</span>
+</code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>func: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>inspect: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">function</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-siganture">
+									<ul class="tsd-signatures tsd-kind-type-literal">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="partialdeepequal" class="tsd-anchor"></a>
+					<h3>partial<wbr>Deep<wbr>Equal</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">partial<wbr>Deep<wbr>Equal<span class="tsd-signature-symbol">(</span>_chai<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">typeof chai</span>, utils<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in
+										<a href="undefined/tree/master/testing/partialDeepEqual.ts#L60">
+											testing/partialDeepEqual.ts:60
+										</a>
+									</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>A chai plugin that adds the ability to partially deep check for object equality. Note that it checks any <strong>DEFINED</strong> keys, if a key is undefined, it&#39;s assumed you want to check that that property should be undefined.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-text">
+								<p>Passes a modified expected object (&quot;filling&quot; its missing properties) to chai so only differences with the expected object are shown by chai.</p>
+								<p>Takes a third parameter that will pretty log the passed objects (in the case of the expected object, as it was passed, not the filled version passed to chai).</p>
+								<p>To use:</p>
+								<pre><code class="language-ts"><span style="color: #AF00DB">import</span><span style="color: #000000"> {</span><span style="color: #001080">partialDeepEqual</span><span style="color: #000000">} </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;@alanscodelog/utils&quot;</span>
+<span style="color: #AF00DB">import</span><span style="color: #000000"> </span><span style="color: #001080">chai</span><span style="color: #000000"> </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;chai&quot;</span>
+<span style="color: #001080">chai</span><span style="color: #000000">.</span><span style="color: #795E26">use</span><span style="color: #000000">(</span><span style="color: #001080">partialDeepEqual</span><span style="color: #000000">)</span>
+
+<span style="color: #008000">//...</span>
+<span style="color: #795E26">expect</span><span style="color: #000000">({</span><span style="color: #001080">a:</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #001080">b:</span><span style="color: #A31515">&quot;b&quot;</span><span style="color: #000000">}).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #001080">partial</span><span style="color: #000000">.</span><span style="color: #001080">deep</span><span style="color: #000000">.</span><span style="color: #795E26">equal</span><span style="color: #000000">({</span><span style="color: #001080">a:</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">}) </span><span style="color: #008000">//true</span>
+<span style="color: #795E26">expect</span><span style="color: #000000">({</span><span style="color: #001080">a:</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #001080">b:</span><span style="color: #A31515">&quot;b&quot;</span><span style="color: #000000">}).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #001080">partial</span><span style="color: #000000">.</span><span style="color: #001080">deep</span><span style="color: #000000">.</span><span style="color: #795E26">equal</span><span style="color: #000000">({</span><span style="color: #001080">a:</span><span style="color: #000000"> </span><span style="color: #0000FF">undefined</span><span style="color: #000000">}) </span><span style="color: #008000">//errors</span>
+<span style="color: #795E26">expect</span><span style="color: #000000">({</span><span style="color: #001080">a:</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #001080">b:</span><span style="color: #A31515">&quot;b&quot;</span><span style="color: #000000">}).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #001080">partial</span><span style="color: #000000">.</span><span style="color: #001080">deep</span><span style="color: #000000">.</span><span style="color: #795E26">equal</span><span style="color: #000000">({}) </span><span style="color: #008000">//true</span>
+<span style="color: #008000">// custom message + pretty log</span>
+<span style="color: #795E26">expect</span><span style="color: #000000">({</span><span style="color: #001080">a:</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;a&quot;</span><span style="color: #000000">, </span><span style="color: #001080">b:</span><span style="color: #A31515">&quot;b&quot;</span><span style="color: #000000">}).</span><span style="color: #001080">to</span><span style="color: #000000">.</span><span style="color: #001080">partial</span><span style="color: #000000">.</span><span style="color: #001080">deep</span><span style="color: #000000">.</span><span style="color: #795E26">equal</span><span style="color: #000000">({}, </span><span style="color: #A31515">&quot;Custom message:&quot;</span><span style="color: #000000">, </span><span style="color: #0000FF">true</span><span style="color: #000000">)</span>
+</code></pre>
+								<p>Note: If you have multiple test files, you will probably need to re-export chai with the plugin applied just once otherwise, adding it for each test file seems to cause problems.</p>
+								<pre><code class="language-ts"><span style="color: #008000">// tests/chai.ts</span>
+<span style="color: #AF00DB">import</span><span style="color: #000000"> </span><span style="color: #001080">chai</span><span style="color: #000000"> </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;chai&quot;</span>
+
+
+<span style="color: #008000">// importing should modify chai&#039;s types correctly (overriding deep.equal/equals/eq)</span>
+<span style="color: #AF00DB">import</span><span style="color: #000000"> { </span><span style="color: #001080">partialDeepEqual</span><span style="color: #000000"> } </span><span style="color: #AF00DB">from</span><span style="color: #000000"> </span><span style="color: #A31515">&quot;@/testing&quot;</span>
+<span style="color: #008000">// ...other plugin imports</span>
+
+<span style="color: #001080">chai</span><span style="color: #000000">.</span><span style="color: #795E26">use</span><span style="color: #000000">(</span><span style="color: #001080">partialDeepEqual</span><span style="color: #000000">)</span>
+<span style="color: #008000">// chai.use(otherPlugins)</span>
+
+<span style="color: #AF00DB">export</span><span style="color: #000000"> </span><span style="color: #AF00DB">default</span><span style="color: #000000"> </span><span style="color: #001080">chai</span>
+<span style="color: #AF00DB">export</span><span style="color: #000000"> </span><span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">expect</span><span style="color: #000000"> = </span><span style="color: #001080">chai</span><span style="color: #000000">.</span><span style="color: #001080">expect</span>
+<span style="color: #008000">// whatever other exports you need...</span>
+</code></pre>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>_chai: <span class="tsd-signature-type">typeof chai</span></h5>
+								</li>
+								<li>
+									<h5>utils: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="testname" class="tsd-anchor"></a>
+					<h3>test<wbr>Name</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">test<wbr>Name<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span>, sep<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in
+										<a href="undefined/tree/master/testing/testName.ts#L34">
+											testing/testName.ts:34
+										</a>
+									</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Used for getting the file name of a test spec (relative to the <code>tests/tests</code> folder) so it&#39;s one less thing we have to worry about when creating a new spec. Its name is just its filename (or if it&#39;s nested: folder/filename), making everything easier to find.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-text">
+								<pre><code class="language-ts"><span style="color: #008000">// tests/folder/someFile.spec.ts</span>
+<span style="color: #795E26">describe</span><span style="color: #000000">(</span><span style="color: #795E26">testName</span><span style="color: #000000">(), () </span><span style="color: #0000FF">=&gt;</span><span style="color: #000000"> {})</span>
+<span style="color: #008000">// = folderSomeFile</span>
+</code></pre>
+								<p>You can set nest to false so it only prints the filename no matter how deeply it&#39;s nested:</p>
+								<pre><code class="language-ts"><span style="color: #008000">// tests/folder/SomeFile.spec.ts</span>
+<span style="color: #795E26">describe</span><span style="color: #000000">(</span><span style="color: #795E26">testName</span><span style="color: #000000">({</span><span style="color: #001080">nest:</span><span style="color: #000000"> </span><span style="color: #0000FF">false</span><span style="color: #000000">}), () </span><span style="color: #0000FF">=&gt;</span><span style="color: #000000"> {})</span>
+<span style="color: #008000">// = someFile</span>
+</code></pre>
+								<p>By default we try to grab the name from the error stack, if that&#39;s failing for some reason, <code>__filename</code> can be passed:</p>
+								<pre><code class="language-ts"><span style="color: #795E26">describe</span><span style="color: #000000">(</span><span style="color: #795E26">testName</span><span style="color: #000000">({</span><span style="color: #001080">__filename</span><span style="color: #000000">}), () </span><span style="color: #0000FF">=&gt;</span><span style="color: #000000"> {})</span>
+</code></pre>
+								<p>Note: This function assumes the test directory is called test or tests and is in <code>process.cwd()</code>.</p>
+								<p>It will throw if it can&#39;t find a test name.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> = {}</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> __filename<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> nest<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>sep: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = ...</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<!--{&quot;options&quot;:&quot;typedoc.config.js&quot;,&quot;tsconfig&quot;:&quot;/home/runner/work/my-utils/my-utils&quot;,&quot;entryPoints&quot;:[&quot;src/colors/index.ts&quot;,&quot;src/retypes/index.ts&quot;,&quot;src/testing/index.ts&quot;,&quot;src/types/index.ts&quot;,&quot;src/utils/index.ts&quot;],&quot;exclude&quot;:[],&quot;externalPattern&quot;:[&quot;**/node_modules/**&quot;],&quot;excludeExternals&quot;:true,&quot;excludeNotDocumented&quot;:false,&quot;excludeInternal&quot;:false,&quot;excludePrivate&quot;:true,&quot;excludeProtected&quot;:false,&quot;disableSources&quot;:false,&quot;includes&quot;:&quot;&quot;,&quot;media&quot;:&quot;&quot;,&quot;watch&quot;:false,&quot;preserveWatchOutput&quot;:false,&quot;emit&quot;:false,&quot;out&quot;:&quot;docs&quot;,&quot;json&quot;:&quot;&quot;,&quot;theme&quot;:&quot;./node_modules/typedoc-neo-theme/bin/default&quot;,&quot;highlightTheme&quot;:&quot;light-plus&quot;,&quot;name&quot;:&quot;&quot;,&quot;includeVersion&quot;:false,&quot;excludeTags&quot;:[],&quot;readme&quot;:&quot;README.md&quot;,&quot;defaultCategory&quot;:&quot;Other&quot;,&quot;categoryOrder&quot;:[],&quot;categorizeByGroup&quot;:true,&quot;gitRevision&quot;:&quot;&quot;,&quot;gitRemote&quot;:&quot;origin&quot;,&quot;gaID&quot;:&quot;&quot;,&quot;gaSite&quot;:&quot;auto&quot;,&quot;hideGenerator&quot;:false,&quot;toc&quot;:[],&quot;disableOutputCheck&quot;:false,&quot;help&quot;:false,&quot;version&quot;:false,&quot;showConfig&quot;:false,&quot;plugin&quot;:[&quot;typedoc-neo-theme&quot;,&quot;typedoc-plugin-param-names&quot;],&quot;logger&quot;:&quot;console&quot;,&quot;logLevel&quot;:1,&quot;listInvalidSymbolLinks&quot;:false,&quot;links&quot;:[{&quot;label&quot;:&quot;Repository&quot;,&quot;url&quot;:&quot;https://github.com/alanscodelog/my-utils&quot;},{&quot;label&quot;:&quot;Issues&quot;,&quot;url&quot;:&quot;https://github.com/alanscodelog/my-utils/issues&quot;}],&quot;source&quot;:[{&quot;path&quot;:&quot;undefined/tree/master/&quot;,&quot;line&quot;:&quot;L&quot;}],&quot;namedParamName&quot;:&quot;options&quot;,&quot;detectNamedParamFromComments&quot;:true,&quot;changeNamedParamTag&quot;:true}-->
+		</div>
+		<div class="col-2 col-menu secondary-menu">
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-function tsd-parent-kind-module root">
+						<a href="testing.html#catcherror" class="tsd-kind-icon">catch<wbr>Error</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter root">
+						<a href="testing.html#expecttype" class="tsd-kind-icon">expect<wbr>Type</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module root">
+						<a href="testing.html#inspecterror" class="tsd-kind-icon">inspect<wbr>Error</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module root">
+						<a href="testing.html#partialdeepequal" class="tsd-kind-icon">partial<wbr>Deep<wbr>Equal</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module root">
+						<a href="testing.html#testname" class="tsd-kind-icon">test<wbr>Name</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
